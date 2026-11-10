@@ -1,0 +1,32 @@
+name: Build mod
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Java 8
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '8'
+
+      - name: Install Gradle 4.10.3
+        run: |
+          wget -q https://services.gradle.org/distributions/gradle-4.10.3-bin.zip
+          unzip -q gradle-4.10.3-bin.zip -d /opt
+
+      - name: Build
+        run: /opt/gradle-4.10.3/bin/gradle setupCIWorkspace build --no-daemon --stacktrace
+
+      - name: Upload jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: rustcrates-mod
+          path: build/libs/*.jar
