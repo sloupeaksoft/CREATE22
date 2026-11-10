@@ -1,0 +1,7 @@
+itemGroup.rustcrates=Rust Crates
+tile.rustcrates.normal_crate.name=Wooden Crate
+tile.rustcrates.elite_crate.name=Elite Crate
+tile.rustcrates.military_crate.name=Military Crate
+tile.rustcrates.admin_normal_crate.name=ADMIN Wooden Crate
+tile.rustcrates.admin_elite_crate.name=ADMIN Elite Crate
+tile.rustcrates.admin_military_crate.name=ADMIN Military Crate

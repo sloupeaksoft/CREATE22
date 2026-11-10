@@ -1,0 +1,8 @@
+{
+  "parent": "rustcrates:block/military_crate",
+  "textures": {
+    "front": "rustcrates:blocks/military_front_admin",
+    "back": "rustcrates:blocks/military_back_admin",
+    "top": "rustcrates:blocks/military_top_admin"
+  }
+}

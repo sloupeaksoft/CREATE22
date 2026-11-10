@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rustcrates:elite_crate"
+    },
+    "facing=east": {
+      "model": "rustcrates:elite_crate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rustcrates:elite_crate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rustcrates:elite_crate",
+      "y": 270
+    }
+  }
+}

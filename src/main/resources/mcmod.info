@@ -1,0 +1,12 @@
+[
+  {
+    "modid": "rustcrates",
+    "name": "Rust Crates",
+    "description": "Ящики из Rust: обычные, элитные и военные + ADMIN-ящики с панелью управления лутом.",
+    "version": "1.1.0",
+    "mcversion": "1.12.2",
+    "authorList": [
+      "netrfloox"
+    ]
+  }
+]

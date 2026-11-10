@@ -1,0 +1,7 @@
+itemGroup.rustcrates=Rust Crates
+tile.rustcrates.normal_crate.name=Обычный ящик
+tile.rustcrates.elite_crate.name=Элитный ящик
+tile.rustcrates.military_crate.name=Военный ящик
+tile.rustcrates.admin_normal_crate.name=ADMIN: обычный ящик
+tile.rustcrates.admin_elite_crate.name=ADMIN: элитный ящик
+tile.rustcrates.admin_military_crate.name=ADMIN: военный ящик

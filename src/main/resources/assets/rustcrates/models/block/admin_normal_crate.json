@@ -1,0 +1,9 @@
+{
+  "parent": "rustcrates:block/normal_crate",
+  "textures": {
+    "front": "rustcrates:blocks/normal_front_admin",
+    "side": "rustcrates:blocks/normal_side_admin",
+    "top": "rustcrates:blocks/normal_top_admin",
+    "particle": "rustcrates:blocks/normal_side_admin"
+  }
+}
